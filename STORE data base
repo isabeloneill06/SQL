@@ -1,0 +1,20 @@
+CREATE TABLE shoe_store (id INTEGER PRIMARY KEY, item TEXT, price INTEGER, aisle INTEGER, brand TEXT);
+INSERT INTO shoe_store VALUES (1, "sneakers", 39, 1, "NIKE");
+INSERT INTO shoe_store VALUES (2,"air jordan", 100, 5, "NIKE");
+INSERT INTO shoe_store VALUES (3, "running shoes", 50, 10, "NEW BALANCE");
+INSERT INTO shoe_store VALUES (4, "golf shoes", 400, 12, "REI");
+INSERT INTO shoe_store VALUES (5, "trainig shoes", 12, 5, "VANS");
+INSERT INTO shoe_store VALUES (6, "skating shoes", 17, 3, "VANS");
+INSERT into shoe_store VALUES (7, "lifestyle", 45, 18, "NIKE");
+INSERT INTO shoe_store VALUES (8, "wide toe", 68, 12, "NEW BALANCE");
+INSERT INTO shoe_store VALUES (9, "closed toe", 78, 19, "YSL");
+INSERT INTO shoe_store VALUES (10, "BOOTS", 122, 10, "GUCCI");
+INSERT INTO shoe_store VALUES (11, "NON SLIP", 89, 11, "PUMA");
+INSERT INTO shoe_store VALUES (12, "TENNIS SHOES", 123, 4, "REEBOK");
+INSERT INTO shoe_store VALUES (13, "BASEBALL SHOES", 89, 2, "NIKE");
+INSERT INTO shoe_store VALUES (14, "HEELS", 23, 5, "YSL");
+INSERT INTO shoe_store VALUES (15, "SLIPPERS", 55, 13, "VICTORIA SECRET");
+
+SELECT price, brand, aisle FROM shoe_store ORDER BY aisle;
+
+
